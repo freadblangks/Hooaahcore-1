@@ -34,7 +34,7 @@ jobs:
             mysql -h 127.0.0.1 -uroot hotfixes < sql/base/dev/hotfixes_database.sql
             cat sql/updates/world/master/*.sql | mysql -h 127.0.0.1 -uroot world
             cat sql/updates/hotfixes/master/*.sql | mysql -h 127.0.0.1 -uroot hotfixes
-            mysql -h 127.0.0.1 -uroot < sql/create/drop_mysql.sql
+
       - run:
           name: Build
           command: |
