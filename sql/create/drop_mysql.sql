@@ -1,22 +1,22 @@
-REVOKE ALL PRIVILEGES ON * . * FROM 'trinity'@'localhost';
+REVOKE ALL PRIVILEGES ON * . * FROM 'root'@'localhost';
 
-REVOKE ALL PRIVILEGES ON `world` . * FROM 'trinity'@'localhost';
+REVOKE ALL PRIVILEGES ON `world` . * FROM 'root'@'localhost';
 
-REVOKE GRANT OPTION ON `world` . * FROM 'trinity'@'localhost';
+REVOKE GRANT OPTION ON `world` . * FROM 'root'@'localhost';
 
 REVOKE ALL PRIVILEGES ON `characters` . * FROM 'trinity'@'localhost';
 
-REVOKE GRANT OPTION ON `characters` . * FROM 'trinity'@'localhost';
+REVOKE GRANT OPTION ON `characters` . * FROM 'root'@'localhost';
 
-REVOKE ALL PRIVILEGES ON `auth` . * FROM 'trinity'@'localhost';
+REVOKE ALL PRIVILEGES ON `auth` . * FROM 'root'@'localhost';
 
-REVOKE GRANT OPTION ON `auth` . * FROM 'trinity'@'localhost';
+REVOKE GRANT OPTION ON `auth` . * FROM 'root'@'localhost';
 
-REVOKE ALL PRIVILEGES ON `hotfixes` . * FROM 'trinity'@'localhost';
+REVOKE ALL PRIVILEGES ON `hotfixes` . * FROM 'root'@'localhost';
 
-REVOKE GRANT OPTION ON `hotfixes` . * FROM 'trinity'@'localhost';
+REVOKE GRANT OPTION ON `hotfixes` . * FROM 'root'@'localhost';
 
-DROP USER 'trinity'@'localhost';
+DROP USER 'root'@'localhost';
 
 DROP DATABASE IF EXISTS `world`;
 
