@@ -1,4 +1,4 @@
-#Hooaahcore - Shadowlands 9.0.2.37474
+#Hooaahcore - World of Warcraft Shadowlands 9.0.2.37474
 
     Introduction
     Requirements
