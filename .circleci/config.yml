@@ -2,7 +2,7 @@ version: 2
 jobs:
   pch_and_sql:
     docker:
-      - image: Hooaahcore/circle-ci:master-buildpacks-disco
+      - image: trinitycore/circle-ci:master-buildpacks-disco
       - image: circleci/mysql:5.7
         environment:
           MYSQL_ALLOW_EMPTY_PASSWORD: yes
